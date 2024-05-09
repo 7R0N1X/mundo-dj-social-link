@@ -1,9 +1,29 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import LinkButton from "../components/LinkButton.astro";
+import Footer from "../components/Footer.astro";
+
+import Logo from "../assets/logo.webp";
+import { Image } from "astro:assets";
+
+import Patreon from "../assets/icons/Patreon.astro";
+import Blogger from "../assets/icons/Blogger.astro";
+import Telegram from "../assets/icons/Telegram.astro";
+import Instagram from "../assets/icons/Instagram.astro";
+import Tiktok from "../assets/icons/Tiktok.astro";
 ---
 
-<Layout title="Mundo DJ | Social Link.">
-	<main>
-		
+<Layout title="Mundo DJ | Social Link">
+	<main class="h-screen max-w-xl mx-auto flex flex-col justify-center items-center gap-4 px-4 sm:px-0 relative z-10">
+		<picture class="flex flex-col justify-center items-center gap-4 mb-5">
+			<Image src={Logo} alt="avatar" class="size-24 rounded-full" />
+			<h1 class="text-xl font-bold text-white">MUNDO DJ</h1>
+		</picture>
+		<LinkButton href="https://www.patreon.com/mundodj"><Patreon class="size-[46px] absolute left-3" />Música en la nube</LinkButton>
+		<LinkButton href="https://bpmlatino.blogspot.com"><Blogger class="size-[46px] absolute left-3" />Blog Mundo DJ</LinkButton>
+		<LinkButton href="https://t.me/bpmlatino"><Telegram class="size-[46px] absolute left-3" />Canal en Telegram</LinkButton>
+		<LinkButton href="https://www.instagram.com/mundodj.official"><Instagram class="size-[46px] absolute left-3" />Nuestra cuenta en Instagram</LinkButton>
+		<LinkButton href="https://www.tiktok.com/@mundo.dj"><Tiktok class="size-[46px] absolute left-3" />Nuestra cuenta en Tiktok</LinkButton>
+		<Footer />
 	</main>
 </Layout>
