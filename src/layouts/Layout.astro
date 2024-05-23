@@ -19,14 +19,8 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="w-screen relative">
-		<div class="relative overflow-hidden w-full h-screen">
-			<div class="bg-black absolute top-0 left-0 w-full h-full"></div>
-			<video autoplay muted loop preload="auto" class="video-background absolute top-0 left-0 w-full h-full object-cover blur-md">
-					<source src="https://firebasestorage.googleapis.com/v0/b/github-efb4e.appspot.com/o/bg.webm?alt=media&token=ddd6a304-2803-4506-a721-948ab70c7446" type="video/webm" />
-			</video>	
+	<body class="w-screen relative bg-gradient-to-b from-[#000000] to-[#0A0A0A]">
 			<slot />
-		</div>
 	</body>
 
 	<style is:global>
@@ -35,3 +29,4 @@ const { title } = Astro.props;
 		}
 	</style>
 </html>
+
