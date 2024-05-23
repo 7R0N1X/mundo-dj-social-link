@@ -1,8 +1,5 @@
 ### Screenshot
-![Screenshot](https://github.com/7R0N1X/mundo-dj-social-link/assets/92642223/9790e8c3-69d7-409c-9aaa-32458f520b7c)
-
-
-
+![Screenshot](https://github.com/7R0N1X/mundo-dj-social-link/assets/92642223/c454d479-a329-4ae4-b9d5-ceec3ba1d559)
 
 ### Prerequisitos
 
@@ -34,7 +31,7 @@
    pnpm run dev
    ```
 
-## 🛠️ Stack
+### Stack
 
 ![Astro](https://img.shields.io/badge/-Astro-333333?style=flat&logo=Astro)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-333333?style=flat&logo=tailwind-css&logoColor=38B2AC)
