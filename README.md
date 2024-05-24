@@ -1,5 +1,6 @@
 ### Screenshot
-![Screenshot](https://github.com/7R0N1X/mundo-dj-social-link/assets/92642223/c454d479-a329-4ae4-b9d5-ceec3ba1d559)
+![Screenshot](https://github.com/7R0N1X/mundo-dj-social-link/assets/92642223/e34c1314-8fd6-4266-a595-6c86db1b892d)
+
 
 ### Prerequisitos
 
