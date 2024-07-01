@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Modal from "../components/Modal.astro";
 import LinkButton from "../components/LinkButton.astro";
 import Footer from "../components/Footer.astro";
 
@@ -15,6 +16,7 @@ import Tiktok from "../assets/icons/Tiktok.astro";
 
 <Layout title="Mundo DJ | Social Link">
 	<main class="w-full flex flex-col justify-between items-center h-screen px-4 py-16">
+		<Modal />
 		<section class="w-full max-w-xl mx-auto flex flex-col justify-start items-center gap-4 relative z-10">
 			<picture class="flex flex-col justify-center items-center gap-4 mb-5">
 				<Image src={Logo} alt="avatar" class="size-24 rounded-full" />
